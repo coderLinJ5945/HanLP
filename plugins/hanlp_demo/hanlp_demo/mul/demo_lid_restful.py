@@ -1,8 +1,11 @@
 # -*- coding:utf-8 -*-
 # Author: hankcs
 # Date: 2022-09-28 16:49
-from hanlp_restful import HanLPClient
 
+from hanlp_restful import HanLPClient
+'''
+调用的是在线模型，使用：pip install hanlp_restful 安装（使用前提：需要网络，且服务器GPU算力有限）
+'''
 HanLP = HanLPClient('https://hanlp.hankcs.com/api', auth=None, language='mul')
 
 print(HanLP.language_identification([

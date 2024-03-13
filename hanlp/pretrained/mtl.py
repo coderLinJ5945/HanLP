@@ -2,7 +2,9 @@
 # Author: hankcs
 # Date: 2020-12-22 13:16
 from hanlp_common.constant import HANLP_URL
-
+"""
+以下是使用的相关模型的下载URL
+"""
 OPEN_TOK_POS_NER_SRL_DEP_SDP_CON_ELECTRA_SMALL_ZH = HANLP_URL + 'mtl/open_tok_pos_ner_srl_dep_sdp_con_electra_small_20201223_035557.zip'
 "Electra (:cite:`clark2020electra`) small version of joint tok, pos, ner, srl, dep, sdp and con model trained on open-source Chinese corpus."
 OPEN_TOK_POS_NER_SRL_DEP_SDP_CON_ELECTRA_BASE_ZH = HANLP_URL + 'mtl/open_tok_pos_ner_srl_dep_sdp_con_electra_base_20201223_201906.zip'
